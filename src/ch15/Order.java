@@ -1,0 +1,9 @@
+package ch15;
+
+public interface Order {
+	final int taxRate = 12;
+	void saleTax();
+	void totalPrice();
+	
+
+}
